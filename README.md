@@ -1,4 +1,5 @@
 # webSAV: a browser-based approach to Sequencing Analysis Viewer
+![Screenshot 2024-02-21 at 23-18-10 webSAVvy](https://github.com/dmatica/websav/assets/4794041/057948ab-4c48-4cb1-93bc-bd5e375dc53c)
 
 Illumina’s Sequencing Analysis Viewer is an application that allows for reviewing the quality metrics of a Illumina sequencing run. This is a vital step in the Next Generation Sequencing workflow, to make sure the sequencing run itself performed as expected before proceeding with the downstream data analysis. Each sequencing run generates an InterOp folder, which contains a set of a binary files that provide run performance metrics, from broad metrics, such as the overall amount of data generated from the run and the percentage of reads with a Q-score greater than 30, along with more granular information pertaining to each specific lane and cycle. 
 
