@@ -34,12 +34,12 @@ def loadRun():
     #ath = '/Users/davindersandhu/Desktop/rmgtest/3/200907_NS500523_0453_AHK2TFBGXG' #NextSeq 500
     #path = '/Users/davindersandhu/Desktop/rmgtest/NovaSeq_S4_Illumina_DNA_PCR-free_v1.5_chemistry_-195476289'   #NovaSeq
     # Execution command on path
-    cmd = '/Users/davindersandhu/Desktop/InterOp-1.1.15-Darwin-AppleClang/bin/dumptext '+path
+    cmd = '/Users/davindersandhu/PycharmProjects/sav4mac/interop-1.3.2-Darwin-AppleClang/bin/dumptext '+path
     so = os.popen(cmd).read().strip().split('\n')
-    cmd1 = '/Users/davindersandhu/Desktop/InterOp-1.1.15-Darwin-AppleClang/bin/summary '+path
+    cmd1 = '/Users/davindersandhu/PycharmProjects/sav4mac/interop-1.3.2-Darwin-AppleClang/bin/summary '+path
     #print(path, cmd)
     so1 = os.popen(cmd1).read().strip().split('\n')
-    cmd2 = '/Users/davindersandhu/Desktop/InterOp-1.1.15-Darwin-AppleClang/bin/imaging_table '+path
+    cmd2 = '/Users/davindersandhu/PycharmProjects/sav4mac/interop-1.3.2-Darwin-AppleClang/bin/imaging_table '+path
     so2 = os.popen(cmd2).read().strip().split('\n')
     return (so,so1,so2,path)
 (so,so1,so2,path)=loadRun()
